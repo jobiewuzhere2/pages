@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: jobiewuzhere2/pages:scaling
+        - image: jobiewuzhere2/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
